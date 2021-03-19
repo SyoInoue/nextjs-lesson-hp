@@ -18,12 +18,14 @@ const Contact = () => {
           />
         </div>
         <div className="mt-4">
-          <p className="font-bold">BloodType</p>
+          <p className="font-bold">Blood Type</p>
           <p className="text-xs mt-2 text-gray-600">Type O</p>
           <p className="font-bold mt-3">E-mail</p>
           <p className="text-xs mt-2 text-gray-600">funnyfacee7777@gmail.com</p>
-          <p className="font-bold mt-3">Phone</p>
-          <p className="text-xs mt-2 text-gray-600">090-7101-0379</p>
+          <p className="font-bold mt-3">Zodiac Signs</p>
+          <p className="text-xs mt-2 text-gray-600">Aries</p>
+          <p className="font-bold mt-3">Birth Day</p>
+          <p className="text-xs mt-2 text-gray-600">1993-03-29</p>
         </div>
         <div className="mt-6 flex justify-around">
           <div>
