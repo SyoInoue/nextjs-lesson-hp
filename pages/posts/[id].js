@@ -49,8 +49,8 @@ export async function getStaticPaths() {
 }
 //getPostDataを実行して、paramsの中になるidの属性を渡す
 export async function getStaticProps({ params }) {
-  const { post: post } = await getPostData(params.id);
-  //const post = await getPostData(params.id);
+  //const { post: post } = await getPostData(params.id);
+  const post = await getPostData(params.id);
   return {
     props: {
       post,
